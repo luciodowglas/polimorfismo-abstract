@@ -56,7 +56,7 @@ public class Program {
 		System.out.println("Taxes Paid per Person:");
 		double sum = 0.0;
 		for (Person p : list) {
-			double tax = p.taxRade();
+			double tax = p.taxRade(); // Pega a Taxe de Imposto Pago por Pessoa
 			System.out.println("name" + p.getName() + " - " + String.format("%.2f", tax));
 			sum += tax;
 		}
